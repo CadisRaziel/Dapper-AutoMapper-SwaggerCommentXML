@@ -1,0 +1,2 @@
+﻿Utilizando dapper a gente nao faz migration, pois nao iremos utilizar o EF
+Para isso precisamos criar o banco de dados na mao e depois usa-lo aqui

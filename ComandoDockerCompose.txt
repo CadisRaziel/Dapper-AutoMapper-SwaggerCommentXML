@@ -1,0 +1,5 @@
+﻿1 -> Criei o docker compose na raiz do projeto
+2 -> Especifiquei os parametros que eu preciso para inicializar o container do mysqlserver
+3 -> Rodar esse comando no terminal para inicializar o container docker-compose up -d
+4 -> Ao finalizar os teste rodar o comando para parar o docker -> docker-compose stop
+

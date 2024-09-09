@@ -16,6 +16,18 @@ services:
       interval: 30s
       retries: 5
 
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: crudDapperMapperAndDocker
+    ports:
+      - "5000:80"
+    networks:
+      - mynetwork
+    depends_on:
+      - sqlserver
+
 networks:
   mynetwork:
     driver: bridge
